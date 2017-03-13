@@ -69,7 +69,7 @@ namespace Task2
         {
             try
             {
-                Dog Doggy = new Dog("Zoe", "Pudel", 3);
+                Dog Doggy = new Dog("Zoe", "Pudel", -3);
                 Console.WriteLine($"The Dogs name is {Doggy.Name}\n");
                 Console.WriteLine($"The Dogs breed is {Doggy.Breed}\n");
                 Console.WriteLine($"The Dogs age is {Doggy.Age}\n");
